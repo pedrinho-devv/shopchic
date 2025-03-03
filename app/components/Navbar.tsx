@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between py-4 mx-auto max-w-7xl px-6">
         <Link href="/">
           <h1 className="text-3xl font-bold">
-            Finall<span className="text-purple-800">Boss</span>
+            Finall<span className="text-[#AFE619]">Boss</span>
           </h1>
         </Link>
 
@@ -30,8 +30,8 @@ export default function Navbar() {
               href={link.href}
               className={`text-lg font-semibold transition duration-200 ${
                 pathname === link.href
-                  ? "text-purple-900"
-                  : "text-white hover:text-purple-900"
+                  ? "text-[#AFE619]"
+                  : "text-white hover:text-[#AFE619]"
               }`}
             >
               {link.name}
@@ -40,9 +40,9 @@ export default function Navbar() {
         </nav>
 
         <div className="flex justify-center items-center gap-4 text-white">
-          <ShoppingBagIcon className="w-6 h-6 cursor-pointer transition duration-200 hover:text-purple-900" />
-          <Heart className="w-6 h-6 cursor-pointer transition duration-200 hover:text-purple-900" />
-          <User className="w-6 h-6 cursor-pointer transition duration-200 hover:text-purple-900" />
+          <ShoppingBagIcon className="w-6 h-6 cursor-pointer transition duration-200 hover:text-[#AFE619]" />
+          <Heart className="w-6 h-6 cursor-pointer transition duration-200 hover:text-[#AFE619]" />
+          <User className="w-6 h-6 cursor-pointer transition duration-200 hover:text-[#AFE619]" />
         </div>
       </div>
     </header>
